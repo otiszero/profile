@@ -1,0 +1,17 @@
+{
+  "name": "my-profile",
+  "version": "1.0.0",
+  "homepage": "http://hhtrung.github.io/my-profile",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^3.0.0"
+  }
+}
